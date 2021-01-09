@@ -7,7 +7,7 @@ test('creates engineer object', () => {
     expect(engineer.name).toBe('Miyuki Miyamoto');
     expect(engineer.id).toBe('x1234');
     expect(engineer.email).toBe('jasmineakbari@yahoo.com');
-    expect(engineer.role).toBe('Engineer')
+    expect(engineer.role).toBe('Engineer');
 })
 
 test('gets the engineer GitHub username', () => {
