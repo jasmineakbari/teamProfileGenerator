@@ -253,23 +253,23 @@ class Prompt {
                 this.employees.push(new Intern(name, id, email, school));
             })
             // import date to page template
-            .then(teamData => {
-                return console.log(this.employees);
+            .then((teamData) => {
+                return generatePage(this.employees);
             })
-            //.then(pageHTML => {
-                //return writeFile(pageHTML);
-            //})
+            .then(pageHTML => {
+                return writeFile(pageHTML);
+            })
             //create the file in dist folder
-            //.then(writeFileResponse => {
-                //console.log(writeFileResponse);
-                //return copyFile();
-            //})
-              //.then(copyFileResponse => {
-                //console.log(copyFileResponse);
-            //})
-            //.catch(err => {
-                //console.log(err);
-            //});
+            .then(writeFileResponse => {
+                console.log(writeFileResponse);
+                return copyFile();
+            })
+              .then(copyFileResponse => {
+                console.log(copyFileResponse);
+            })
+            .catch(err => {
+                console.log(err);
+            });
     }       
 };
 
