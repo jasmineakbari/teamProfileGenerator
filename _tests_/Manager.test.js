@@ -12,7 +12,7 @@ test('creates a Manager object', () => {
 test('retrieves Managers role', () => {
     const manager = new Manager('Ash Alpha' , 'x1', 'jasmineakbari@yahoo.com');
 
-    expect(manager.getRole()).toEqual('<span class="oi" data-glyph="briefcase"></span> Manager');
+    expect(manager.getRole()).toEqual(expect.any(String));
 });
 
 test('retrieves Managers Office Number', () => {
