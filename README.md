@@ -36,6 +36,6 @@ Type: node index to your terminal to begin the prompts to create your unique Tea
 
 ## Contributions
 
-Made with ❤️ by: [GitHub](http://github.com/jasmineakbari)http://github.com/jasmineakbari
+Made with ❤️ by: [GitHub](http://github.com/jasmineakbari) http://github.com/jasmineakbari
 
 If you would like to contribute to this work please feel free to submit any push/pull request, create issues or reach out to me at my email: jasmineakbari@yahoo.com.
