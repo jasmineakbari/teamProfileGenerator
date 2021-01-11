@@ -1,8 +1,8 @@
-# teamProfileGenerator
+# Team Profile Generator
 
 ## Description
 
-This is a very simple and easy to use Team Profile Generator. With this you can enter the names and information of your 4 persons team. You can populte a Manager, Employee, Engineer and Intern using inquirer prompts and node.js. Please read the installation guide to assist with getting started. After installation is complete you are able to follow command line prompts to ultimately generate your unique HTML web page showing your new team!
+This is a very simple and easy to use Team Profile Generator. With this you can enter the names and information of your 4 person team. You can populate a Manager, Employee, Engineer and Intern using inquirer prompts and node.js. Please read the installation guide to assist with getting started. After installation is complete you are able to follow command line prompts to ultimately generate your unique HTML web page showing your new team!
 
 ## Table of Contents
 
@@ -34,15 +34,15 @@ Here is a Screen Capture of the Sample HTML page generated via the walkthrough v
 
 Please see below some helpful screenshots to help you with installation:
 
-1. ![Step1](./images/step-1.PNG)
+![Step1](./images/step-1.PNG)
 
-2. ![Step2](./images/step-2.PNG)
+![Step2](./images/step-2.PNG)
 
-3. ![Step3](./images/step-3.PNG)
+![Step3](./images/step-3.PNG)
 
-4. ![Step4](./images/step-4.PNG)
+![Step4](./images/step-4.PNG)
 
-5. ![Step5](./images/step-5.PNG)
+![Step5](./images/step-5.PNG)
 
 Type: node index to your terminal to begin the prompts to create your unique Team Profile. Once you've answered all the prompts you will receive a success message and your completed file will be available in the "dis" folder for your immediate use!
 
@@ -50,4 +50,4 @@ Type: node index to your terminal to begin the prompts to create your unique Tea
 
 Made with ❤️ by: [GitHub](http://github.com/jasmineakbari) http://github.com/jasmineakbari
 
-If you would like to contribute to this work please feel free to submit any push/pull request, create issues or reach out to me at my email: jasmineakbari@yahoo.com.
+If you would like to contribute to this work please feel free to submit any push/pull requests, create issues or reach out to me at my email: jasmineakbari@yahoo.com.
