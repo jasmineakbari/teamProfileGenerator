@@ -1,30 +1,18 @@
 // check for special conditions
 const special = teamData => {
     if (teamData.officeNumber) {
-        return `<li class="list-group-item">Office Number: ${teamData.officeNumber}</li>`
+        return `Office Number: ${teamData.officeNumber}`
     }
     if (teamData.school) {
-        return `<li class="list-group-item">Attending: ${teamData.school}</li>`
+        return `Attending: ${teamData.school}`
     }
     if (teamData.github) {
-        return `<li class="list-group-item">Github: <a href="https://github.com/${teamData.github}">${teamData.github}</a></li>`
+        return `Github: <a href="https://github.com/${teamData.github}">${teamData.github}</a>`
     }
 };
 
-//const getIcon = teamData => {
-    //if (teamData.role === Manager) {
-        //return `<span class="oi" data-glyph="people"></span>`
-    //}
-    //if (teamData.role === Employee || Engineer) {
-        //return `<span class="oi" data-glyph="people"></span>`
-    //}
-    //if (teamData.role === Intern) {
-        //return `<span class="oi" data-glyph="spreadsheet"></span>`
-    //}
-//}
-
 // creating cards
-const generateManagerCard = teamData => {
+const generateCards = teamData => {
     if (!teamData) {
         return '';
     }
@@ -32,22 +20,25 @@ const generateManagerCard = teamData => {
     return `
         <div class="container-fluid justify-content-center">
             <div class="row justify-content-center">
-                <div class="card text-white bg-secondary mb-3 mb-3 employees text-center p-4" style="max-width: 18rem;">
                 ${teamData.map((team) => {
             return `
-                <h3>${team.getName()}</h3>
-                <h5>${team.getRole()}</h5>
-                <ul class="list-group p-4 text-dark">
-                    <li class="list-group-item">${team.getId()}</li>
-                    <li class="list-group-item">Email: <a href="mailto:https://${team.getEmail()}">${team.getEmail()}</a></li>
-                    <li class="list-group-item">${special(team)}</li>
-                </ul>
-            </div>
+                <div class="card text-white bg-secondary mb-3 mb-3 employees text-center p-4" style="max-width: 18rem;">
+                    <h3>${team.getName()}</h3>
+                    <h5>${team.getRole()}</h5>
+                    <ul class="list-group p-4 text-dark">
+                        <li class="list-group-item">${team.getId()}</li>
+                        <li class="list-group-item">Email: <a href="mailto:https://${team.getEmail()}">${team.getEmail()}</a></li>
+                        <li class="list-group-item">${special(team)}</li>
+                    </ul>
+                </div>
     `
     }).join('')}
-        </div>
+            </div>
+        </div>  
     `
 }
+
+// const generateEmployeeCards = teamData => {}
 
 module.exports = teamData => {
 
@@ -70,7 +61,7 @@ module.exports = teamData => {
                 </div>
             </nav>  
             <main>
-                ${generateManagerCard(teamData)}
+                ${generateCards(teamData)}
             </main>
         </body>                   
         </html>
