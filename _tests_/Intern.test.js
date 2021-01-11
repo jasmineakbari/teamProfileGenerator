@@ -12,7 +12,7 @@ test('creates an Intern object', () => {
 test('retrieves Interns role', () => {
     const intern = new Intern('Amelia Snow', 'x12345', 'jasmineakbari@yahoo.com');
 
-    expect(intern.getRole()).toEqual('Role: Intern');
+    expect(intern.getRole()).toEqual('<span class="oi" data-glyph="spreadsheet"></span> Intern');
 });
 
 test('retrieves Interns school', () => {
