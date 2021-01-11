@@ -14,13 +14,13 @@ This is a very simple and easy to use Team Profile Generator. With this you can 
 
 ## WalkThrough Video
 
-Feel free to watch this video link to see this project in action: [video](https://drive.google.com/file/d/1VlwZc6psM4do73MYeN62OQGs_roCW5E-/view).
+Feel free to watch this video link to see this project in action: [walthrough video](https://drive.google.com/file/d/1VlwZc6psM4do73MYeN62OQGs_roCW5E-/view).
 
 ## Sample HTML Page
 
 Here is a Screen Capture of the Sample HTML page generated via the walkthrough video using the project.
 
-![Step1](./images/sample-html.pdf)
+![SampleHTML](./images/sample-html.pdf)
 
 ## Installation
 
