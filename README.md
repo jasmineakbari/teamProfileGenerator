@@ -22,11 +22,15 @@ This is a very simple and easy to use Team Profile Generator. With this you can 
 
 Please see below some helpful screenshots to help you with installation:
 
-Step 1: 
+1. [Step1](./images/step-1.PNG)
 
-Step 2:
+2. [Step2](./images/step-2.PNG)
 
-Step 3:
+3. [Step3](./images/step-3.PNG)
+
+4. [Step4](./images/step-4.PNG)
+
+5. [Step5](./images/step-5.PNG)
 
 Type: node index to your terminal to begin the prompts to create your unique Team Profile. Once you've answered all the prompts you will receive a success message and your completed file will be available in the "dis" folder for your immediate use!
 
