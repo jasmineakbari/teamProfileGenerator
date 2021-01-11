@@ -8,6 +8,8 @@ const special = teamData => {
     }
     if (teamData.github) {
         return `Github: <a href="https://github.com/${teamData.github}">https://github.com/${teamData.github}</a>`
+    } else {
+        return `</br>`;
     }
 };
 
@@ -26,9 +28,9 @@ const generateCards = teamData => {
                     <h3>${team.getName()}</h3>
                     <h5>${team.getRole()}</h5>
                     <ul class="list-group p-4 text-dark">
-                        <li class="list-group-item">${team.getId()}</li>
-                        <li class="list-group-item">Email: <a href="mailto:https://${team.getEmail()}">${team.getEmail()}</a></li>
-                        <li class="list-group-item">${special(team)}</li>
+                        <li class="list-group-item text-left">${team.getId()}</li>
+                        <li class="list-group-item text-left">Email: <a href="mailto:https://${team.getEmail()}">${team.getEmail()}</a></li>
+                        <li class="list-group-item text-left">${special(team)}</li>
                     </ul>
                 </div>
     `
