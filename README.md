@@ -8,26 +8,27 @@ This is a very simple and easy to use Team Profile Generator. With this you can 
 
 * Installation
 * Usage
-* Licenses
 * Contributions
 
 ## Installation
 
 1. To install to your machine please copy the "GitHub CLI" link and import the repository after clicking the add "New Repository" link in GitHub. Paste the link when prompted and give the repository your own name.
 
-2. Clone the repository to your terminal by using git clone "" and paste the copied link in the quotations.
+2. Navigate to the folder you wish to Clone the repository in and do so in your terminal by using 'git clone ""' and paste the copied link in the quotations.
 
-3. After cloning, finally confirm you have "Node.Js" installed to your machine as well or install by following this link: (https://nodejs.org/en/download/)Node.Js.
+3. After cloning, finally confirm you have "Node.Js" installed to your machine as well or install by following this link: [Node.js](https://nodejs.org/en/download/).
 
-## Usage
+## Usage 
 
 Please see below some helpful screenshots to help you with installation:
 
+Step 1: 
+
+Step 2:
+
+Step 3:
+
 Type: node index to your terminal to begin the prompts to create your unique Team Profile. Once you've answered all the prompts you will receive a success message and your completed file will be available in the "dis" folder for your immediate use!
-
-## Licenses
-
-APM badge
 
 ## Contributions
 
