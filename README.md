@@ -20,7 +20,7 @@ Feel free to watch this video link to see this project in action: [walthrough vi
 
 Here is a Screen Capture of the Sample HTML page generated via the walkthrough video using the project.
 
-![SampleHTML](./images/sample-html.pdf)
+![SampleHTML](./images/sample-html.png)
 
 ## Installation
 
