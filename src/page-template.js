@@ -7,7 +7,7 @@ const special = teamData => {
         return `Attending: ${teamData.school}`
     }
     if (teamData.github) {
-        return `Github: <a href="https://github.com/${teamData.github}">${teamData.github}</a>`
+        return `Github: <a href="https://github.com/${teamData.github}">https://github.com/${teamData.github}</a>`
     }
 };
 
